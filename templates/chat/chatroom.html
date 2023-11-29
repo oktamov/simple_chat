@@ -104,7 +104,7 @@
 
     {{ request.user.username|json_script:"user_username" }}
     {{ room_name|json_script:"room-name" }}
-    {{ request.user.profile.image.url|json_script:"user_image" }}
+    {{ request.user.profile.picture.url|json_script:"user_image" }}
     <script>
         // $(document).ready(function(event){
         //     $("#chat-box").scrollTop($("#chat-box").scrollHeight);
